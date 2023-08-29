@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Ryan Sayaboc">
+        <meta name="description" content="Contact information for The Little Taco Shop">
+        <title>Contact Us -LTS</title>
+        <link rel="icon" href="favicon.ico" type="image/x=icon">
+        <link rel="stylesheet" href="10_lesson_starter\css\style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Contact Us</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/#about">About <abbr title="The Little Taco Shop">LTS</abbr></a>
+                    </li>
+                    <li>
+                        <a href="/#menu">Our Menu</a>
+                    </li>
+                    
+                    <li>
+                        <a href="hours.html">Hours</a>
+                    </li>
+                </ul>
+            </nav>
+            <figure>
+                <img src="10_lesson_starter\img\tacos_close_up_400x260.png" alt="Little Taco Shop Tacos" title="Ready to be eaten tacos!" width="400" height="260"> 
+                <figcaption>Carne Asada Tacos</figcaption>
+            </figure>
+        </header>
+        <hr>
+        <main>
+            <h2>Our Contact Form</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send Us A Message</legend>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="your name here" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email" placeholder="your email here" required></input>
+                    </p>
+                    <p>
+                        <label for="message">Your Message:</label>
+                        <br>
+                        <textarea type="freeform" name="message" id="message" placeholder="type your message here" cols="40" rows="10" ></textarea>
+                    </p>
+                </fieldset>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+            <section>
+                <h2>Our Location</h2>
+                <address>
+                    123 Your Mom's House Lane<br>
+                    Compton, CA 12345-1234
+                    <br><br>
+                    Phone: <a href="tel:+1231231234">(123)-123-1234</a>
+
+                </address>
+            </section>
+            <br><br>
+            <a href="#">Back To Top</a>
+
+        </main>
+        <hr>
+        <footer>
+            <p>Copyright &copy; The Little Taco Shop</p>
+        </footer>
+    </body>
+</html>
